@@ -4,10 +4,10 @@
 // https://www.w3schools.com/react/react_es6_variables.asp
 
 let puedesPasar = true;
-edad = 17;
+edad = 18;
 
 if (edad >= 18) {
-    let puedesPasar = false;
+     puedesPasar = false;
 }
 
 console.log(puedesPasar) // false

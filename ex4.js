@@ -15,7 +15,8 @@ console.log(tempMin, tempMax); // Funciona, forma ES5
 // Reescribe el código de arriba usando ES6
 
 // TODO: Usa el operador de destrcturación para asignar el valor de la primera posición del array a tempDestructMin, y la segunda posición del array a tempDesustructMax
-
-// console.log(tempDestructMin, tempDestructMax) // -1 20
+const [tempDestructMin,,] = temp;
+const [,tempDestructMax] = temp;
+console.log(tempDestructMin, tempDestructMax) // -1 20
 
 
